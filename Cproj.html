@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home Page</title>
+		<link rel="stylesheet" href="main.css">
+		<meta charset="UTF-8">
+	</head>
+<body>
+	<header>
+		<h1>Welcome To Sky's Sun Sewing</h1>
+		<nav class="topnav" id="myTopnav">
+		  <a href="Cproj.html" class="active">Current Projects</a>
+		  <a href="index.html" >Home</a>
+		  <a href="Fin.html">Finished Projects</a>
+		  <a href="future.html">Future Projects</a>
+		  <a href="Contact.html">Contact</a>
+		  <a href="request.html">Requests</a>
+		  <a href="about.html">About</a>
+		  <a href="#" class="icon" onclick="showDropMenu()">&#9776;</a>
+		</nav>
+	</header>
+	
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+			<img src="Inpro1.JPG" style="width:100%" alt="Quilt">
+			<div class="text">Fidget Quilts</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 3</div>
+			<img src="Inpro2.JPG" style="width:100%" alt="Quilt">
+			<div class="text">Fidget Quilts</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 3</div>
+			<img src="Inpro3.JPG" style="width:100%" alt="Quilt">
+			<div class="text">Fidget Quilt</div>
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br />
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+	
+	
+	<footer>
+	<small>
+		William Lewis
+		<br />  
+		Sky's Sun Webpage
+		</small>
+	</footer>
+<script src="Home.js"></script>
+</body>
+</html>

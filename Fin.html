@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home Page</title>
+		<link rel="stylesheet" href="main.css">
+		<meta charset="UTF-8">
+	</head>
+<body>
+	<header>
+		<h1>Welcome To Sky's Sun Sewing</h1>
+		<nav class="topnav" id="myTopnav">
+		  <a href="Fin.html"  class="active" >Finished Projects</a>
+		  <a href="index.html">Home</a>
+		  <a href="Cproj.html">Current Projects</a>
+		  <a href="future.html">Future Projects</a>
+		  <a href="Contact.html">Contact</a>
+		  <a href="request.html">Requests</a>
+		  <a href="about.html">About</a>
+		  <a href="#" class="icon" onclick="showDropMenu()">&#9776;</a>
+		</nav>
+	</header>
+	
+	
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 4</div>
+			<img src="Fin1.JPG" style="width:100%" alt="Fabric Tree">
+			<div class="text">Wishing Tree</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 4</div>
+			<img src="Fin2.JPG" style="width:100%" alt="Fabric Tree">
+			<div class="text">Wishing Tree</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 4</div>
+			<img src="Fin3.JPG" style="width:100%" alt="Fabric Quilt">
+			<div class="text">Quilt For Kindergarden Class</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 4</div>
+			<img src="Fin4.JPG" style="width:100%" alt="Fabric Quilt">
+			<div class="text">Quilt For Kindergarden Class</div>
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br />
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+	</div>
+	
+	
+	<footer>
+	<small>
+		William Lewis
+		<br />  
+		Sky's Sun Webpage
+		</small>
+	</footer>
+<script src="Home.js"></script>
+</body>
+</html>

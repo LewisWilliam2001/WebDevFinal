@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home Page</title>
+		<link rel="stylesheet" href="main.css">
+		<meta charset="UTF-8">
+	</head>
+<body>
+	<header>
+		<h1>Welcome To Sky's Sun Sewing</h1>
+		<nav class="topnav" id="myTopnav">
+		  <a href="request.html"  class="active">Requests</a>
+		  <a href="index.html">Home</a>
+		  <a href="Fin.html">Finished Projects</a>
+		  <a href="Cproj.html">Current Projects</a>
+		  <a href="future.html">Future Projects</a>
+		  <a href="Contact.html">Contact</a>
+		  <a href="about.html">About</a>
+		  <a href="#" class="icon" onclick="showDropMenu()">&#9776;</a>
+		</nav>
+	</header>
+	
+	
+	<form action="http://www.syw2l.org/reflect.php" method="get" >
+		<label for="nameinput">Name:</label><input type="text" name="name" id="nameinput">		
+		<label >Type of Sewing</label>
+		<section>
+		<h5>Input Below</h5>
+		<input type="radio" name="a1" value="F">Finest
+		<input type="radio" name="a1" value="C">Crochet
+		<input type="radio" name="a1" value="M">Misc
+		</section>
+		<label >Price Range Low</label>
+		<input type="number" name="a2">
+		<label >Price Range High</label>
+		<input type="number" name="a3">
+		<label >Your Email</label>
+		<input type="email" name="a4">
+		<label><input type="submit" value="Submit Query"></label>
+		</form>
+	
+	
+	
+	<footer>
+	<small>
+		William Lewis
+		<br />  
+		Sky's Sun Webpage
+		</small>
+	</footer>
+	<script>
+	function showDropMenu() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+	x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	</script>
+</body>
+</html>
